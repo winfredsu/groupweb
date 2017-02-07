@@ -11,3 +11,15 @@ $(document).ready(function() {
     itemsMobile: [479,1]      
   });
 });
+
+function initMap() {
+  var rohm = {lat: 40.005349, lng: 116.335930};
+  var map = new google.maps.Map(document.getElementById('contactMap'), {
+    zoom: 14,
+    center: rohm
+  });
+  var marker = new google.maps.Marker({
+    position: rohm,
+    map: map
+  });
+}

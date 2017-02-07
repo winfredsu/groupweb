@@ -10,17 +10,23 @@ html {
     height: 100%;
 }
 
-body,
+body {
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 18px;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.bold
+ {
 /*    font-family: "Helvetica";*/
 /*    font-family: sans-serif;*/
-    font-family: "Lato";
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .topnav {
@@ -29,12 +35,6 @@ h6 {
 
 .topnav-brand {
     font-size: 30px;
-}
-
-
-.lead {
-    font-size: 18px;
-    font-weight: 400;
 }
 
 .homepage-banner {
@@ -136,6 +136,7 @@ h6 {
 #sponsor-list {
     margin-top: 0px;
     margin-bottom: 0px;
+    vertical-align: middle;
 }
 
 
@@ -174,4 +175,28 @@ footer {
 
 p.copyright {
     margin: 10px 0 0;
+}
+.contact-address {
+/*    margin-left: 30px;*/
+    font-size: 1.6em;
+    vertical-align: middle;
+}
+
+.contact-address .fa {
+   font-size: 1.4em;
+    vertical-align: middle;
+    display: inline-block;
+    width: 1.6em;
+    text-align: center;
+}
+
+#contactMap {
+/*    margin: 10px 20px;*/
+    height: 300px;
+}
+
+.item {
+    vertical-align: center;
+    width: 180px;
+    height: 180px;
 }
