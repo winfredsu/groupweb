@@ -64,12 +64,12 @@ h6,
     margin-bottom: -0.3em;
     padding-top: 0.25em;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 3em;
+    font-size: 2.8em;
 }
 
 .homepage-banner-title > h3 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 
 @media(max-width:767px) {
@@ -94,12 +94,7 @@ h6,
     letter-spacing: 2px;
 }
 
-.homepage-content-wrapper {
-    padding: 10px 10px;
-    background-color: #f8f8f8;
-}
-
-.contact-content-wrapper {
+.page-wrapper {
     padding: 10px 10px;
     background-color: #f8f8f8;
 }
@@ -110,18 +105,16 @@ h6,
     border-bottom: 1px solid #e7e7e7;
 }
 
-.section-heading {
-    padding-top: 7px;
-    padding-bottom: 8px;
-    //margin-right: 40px;
-    //border-bottom: 2px solid #e7e7e7;
+.page-heading {
+/*    padding-top: 7px;*/
+    padding-top: 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #d7d7d7;
 }
 
 .content {
     padding: 20px auto;
 }
-
-
 
 #sponsor-list img {
     opacity: 0.5;
@@ -178,19 +171,19 @@ p.copyright {
 }
 .contact-address {
 /*    margin-left: 30px;*/
-    font-size: 1.6em;
+    font-size: 20px;
     vertical-align: middle;
 }
 
 .contact-address .fa {
-   font-size: 1.4em;
+   font-size: 1.5em;
     vertical-align: middle;
     display: inline-block;
-    width: 1.6em;
+    width: 1.5em;
     text-align: center;
 }
 
-#contactMap {
+#contact-map {
 /*    margin: 10px 20px;*/
     height: 300px;
 }
@@ -199,4 +192,49 @@ p.copyright {
     vertical-align: center;
     width: 180px;
     height: 180px;
+}
+
+.member-name {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+.member-description {
+    font-size: 18px;
+    font-weight: 300;
+    color: dimgray;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+.member-profile {
+    text-align: center;
+    align-content: center;
+}
+
+.member-avatar {
+    height: 180px;
+    width: 180px;
+    display: inline-block;
+}
+
+.section-heading {
+    padding-bottom: 8px;
+}
+
+.research-img {
+    padding-top: 20px;
+}
+
+.research-direction {
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.content-wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }

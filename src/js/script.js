@@ -6,15 +6,15 @@ $(document).ready(function() {
     items : 5,
     itemsDesktop: [1200,3],
     itemsDesktopSmall: [991,3],
-    itemsTablet: [767,2],
+    itemsTablet: [767,3],
     itemsTabletSmall: [625,2],
-    itemsMobile: [479,1]      
+    itemsMobile: [479,2]
   });
 });
 
 function initMap() {
   var rohm = {lat: 40.005349, lng: 116.335930};
-  var map = new google.maps.Map(document.getElementById('contactMap'), {
+  var map = new google.maps.Map(document.getElementById('contact-map'), {
     zoom: 14,
     center: rohm
   });
