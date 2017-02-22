@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<base href="/">
+
+    <title>XXX Group </title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+    <link href="../node_modules/owl.carousel/dist/assets/owl.carousel.css" rel="stylesheet">
+    <link href="../node_modules/owl.carousel/dist/assets/owl.theme.default.css" rel="stylesheet">
+    
+    <!-- Custom Fonts -->
+    <link href="../node_modules/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav-brand bold" href="#">LOGO</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right bold">
+                    <li>
+                        <a href="#home" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="#members">Members</a>
+                    </li>
+                    <li>
+                        <a href="#research">Research</a>
+                    </li>
+                    <li>
+                        <a href="#publications">Publications</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Header -->
+    <div class="homepage-banner">
+         <div class="homepage-banner-title-wrapper">
+             <div class="homepage-banner-title">
+                 <h2>NAME NAME NAME Group</h2>
+                 <h3>NICS Lab, Department of Electronic Engineering, Tsinghua University</h3>
+             </div>                       
+         </div>
+    </div>
+    <!-- /.intro-header -->
+
+    <!-- Page Content -->
+
+    <div class="page-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 content">
+<!--                    <div class="clearfix"></div>-->
+                    <h1 class="section-heading">Welcome</h1>
+<!--                    <hr class="section-heading-spacer">-->
+                    <p>The XXX group investigates cutting-edge research topics in the field of XXX, XXX and XXX. There are 1 professor with XX MS students and XX Ph.D students. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus commodo est, vitae vestibulum sem fringilla non. Etiam lacus nibh, volutpat vel lacus porttitor, vestibulum porta lorem. </p>
+                </div>
+                <div class="col-md-5 col-sm-5 content">
+                    <h1 class="section-heading">Latest News</h1>
+                    <ul>
+                        <li><em>Sep. 2016, </em>Group website established. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li><em>Oct. 2016, </em> Bootstrap test</li>
+                        <li><em>Nov. 2016, </em>Another new</li>
+                    </ul>
+                </div>
+                <div class="col-md-12 col-sm-12 content">
+<!--                    <div class="clearfix"></div>-->
+                    <h1 class="section-heading">Sponsors</h1>
+<!--                    <hr class="section-heading-spacer">-->
+                            <div id="sponsor-list" class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <img src="img/logo_nsfc.jpg" alt="sponsor4" class="center-block" style="width: 180px; " >
+                                </div>
+                                <div class="item">
+                                    <img src="img/logo_icfc.png" alt="sponsor4" class="center-block" style="width: 180px;" >
+                                </div>
+                                <div class="item">
+                                    <img src="img/logo_863.jpg" alt="863" class="center-block" style="width: 180px;">
+                                </div>  
+                                <div class="item">
+                                    <img src="img/logo_973.jpg" alt="973" class="center-block" style="width: 180px;">
+                                </div> 
+                                <div class="item" href="http://www.rohm.com" >
+                                    <a href="https://www.rohm.com"><img src="img/logo_rohm.png" alt="ROHM Semiconductor" class="center-block" style="width: 180px; vertical-align: middle;"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="https://www.huawei.com"></a><img src="img/logo_huawei.png" alt="HUAWEI" class="center-block" style="width: 180px;"></a>
+                                </div>
+                    </div>                   
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="page-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-heading">Members</h1>
+                </div>
+            </div>
+            <div class="row content-wrapper">
+                <div class="col-lg-12">
+                    <h2 class="section-heading">Faculty<h2>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-xs-12 member-profile">
+                    <div class="member-avatar">
+                        <img class="img-responsive img-circle" src="img/user.jpg">
+                    </div>
+                    <p class="member-name">
+                        Yongpan Liu
+                    </p>
+                    <p class="member-description">
+                        Associate Professor
+                    </p>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div class="col-lg-12">
+                    <h2 class="section-heading">Students</h2>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-xs-12 member-profile">
+                    <div class="member-avatar">
+                        <img class="img-responsive img-circle" src="img/user.jpg">
+                    </div>
+                    <p class="member-name">
+                        Yongpan Liu
+                    </p>
+                    <p class="member-description">
+                        Associate Professor
+                    </p>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-xs-12 member-profile">
+                    <div class="member-avatar">
+                        <img class="img-responsive img-circle" src="img/user.jpg">
+                    </div>
+                    <p class="member-name">
+                        Yongpan Liu
+                    </p>
+                    <p class="member-description">
+                        Associate Professor
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-heading">Research</h1>
+                </div>
+            </div>
+            <div class="row research-direction">
+                <div class="col-md-6">
+                    <h2 class="section-heading">1. Nonvolatile Computing</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <button class="btn btn-primary btn-sm">Read More >></button>
+                </div>
+                <div class="col-md-5 col-md-offset-1 research-img">
+                    <img class="img-responsive img-thumbnail" src="img/research.jpg">
+                </div>
+            </div>
+            <div class="row research-direction">
+                <div class="col-md-6 col-md-push-6">
+                    <h2 class="section-heading">2. Flexible Electronics</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <button class="btn btn-primary btn-sm">Read More >></button>
+                </div>
+                <div class="col-md-5 col-md-pull-6 research-img">
+                    <img class="img-responsive img-thumbnail" src="img/research.jpg">
+                </div>
+            </div>
+            <div class="row research-direction">
+                <div class="col-md-6">
+                    <h2 class="section-heading">3. Intelligent Hardware</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <button class="btn btn-primary btn-sm">Read More >></button>
+                </div>
+                <div class="col-md-5 col-md-offset-1 research-img">
+                    <img class="img-responsive img-thumbnail" src="img/research.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="page-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="page-heading">Publications</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="nav nav-pills">
+                        <li role="presentation" class="active"><a href="#">All publications</a></li>
+                        <li role="presentation"><a href="#">Journal Articles</a></li>
+                        <li role="presentation"><a href="#">Conference Papers</a></li>
+                    </ul>
+                    <ul class="publication-list">
+                        <li><span class="publication-abbr">VLSI 17 </span><span class="publication-auth">Fang Su, Yongpan Liu</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="page-heading">Contact Information</h1>
+                </div>
+            </div>
+            <div class="row content-wrapper">
+                <div class="col-md-6 col-md-push-6">
+                    <div class="row">
+                        <div class="col-md-11 col-md-offset-1 contact-address">
+                            <p>&nbsp;</p>
+                            <p><span class="fa fa-phone"></span>&nbsp; &nbsp; +188-1030-1073</p>
+                            <p><span class="fa fa-envelope"></span>&nbsp; &nbsp; ypliu@tsinghua.edu.cn</p>
+                            <p><span class="fa fa-map-marker"></span>&nbsp; &nbsp; 4-302, ROHM building</p>
+                            <p><span class="fa"></span>&nbsp; &nbsp; Tsinghua University, 100084 China</p>
+                            <p>&nbsp;</p>
+                        </div>
+<!--                       <div class="col-md-1 col-md-pull-11">&nbsp;</div>-->
+                    </div>
+                </div>
+                <div class="col-md-6 col-md-pull-6">
+<!--                   <p>Google Map Live preview test</p>-->
+                    <div id="contact-map"></div>
+                </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                   <h1 class="page-heading">Leave a Message</h1>
+                   <div class="well">Have a question or comment? Leave us a message and we will get back to you ASAP!</div>
+               </div>
+            </div>
+            <div class="row content-wrapper">
+               <form>
+                   <div class="col-sm-6">
+                       <div class="form-group">
+                           <label class="control-label" for="name">Name</label>
+                           <div class="input-group">
+                               <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                               <input type="text" class="form-control" id="name" placeholder="Enter Your Full Name" required>
+                           </div>
+
+                       </div>
+                   </div>
+                   <div class="col-sm-6">
+                       <div class="form-group">
+                           <label class="control-label" for="email">Email</label>
+                           <div class="input-group">
+                               <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+                               <input type="email" class="form-control" id="email" placeholder="Enter Your Email Address" required>
+                           </div>
+
+                       </div>
+                   </div>
+                   <div class="col-sm-12">
+                       <div class="form-group">
+                           <label class="control-label" for="message">Message</label>
+                           <div class="input-group">
+                               <span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
+                               <textarea class="form-control" id="message" rows="6" placeholder="Leave a Message" required></textarea>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-sm-12">
+                       <button class="btn btn-primary" type="submit">Submit</button>
+                   </div>
+              </form>
+            </div>
+    
+        </div>
+    
+
+    </div>
+    
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#members">Members</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#research">Research</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#publications">Publications</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright 2016 &copy; NAME Group.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+
+    <!-- Angular Core JavaScript -->
+    <script src="../node_modules/angular/angular.min.js"></script>
+            
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+    <!-- Custom JavaScript-->
+    <script src="../node_modules/owl.carousel.dist/owl.carousel.min.js"></script>
+
+    <!-- Google Map JavaScript -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDRJvVT3U9Z0cJcFt6k8FdlAQHgEcd2OA&callback=initMap">
+    </script>
+
+    <script src="js/script.js"></script>
+
+    <!-- Polyfill(s) for older browsers -->
+    <script src="../node_modules/core-js/client/shim.min.js"></script>
+
+    <script src="../node_modules/zone.js/dist/zone.js"></script>
+    <script src="../node_modules/systemjs/dist/system.src.js"></script>
+
+    <script src="systemjs.config.js"></script>
+		<script src="main.js"></script>
+
+    <script>
+      System.import('main.js').catch(function(err){ console.error(err); });
+    </script>
+</body>
+
+</html>
